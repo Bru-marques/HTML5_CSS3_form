@@ -1,0 +1,63 @@
+*{
+    font-family: Montserrat, sans-serif;
+    margin-top: 1%;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    height:70%;
+    background-color: #f4f4f8;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:20px;
+}
+.title {
+    align-items: center;
+}
+.form_area {
+    display: flex;
+    background-color:#fff;
+    width:95%;
+    border-radius: 7px;
+}
+.left_area {
+    width:35%;
+    background-color: #a43559;
+    border-radius: 7px;
+    padding: 10px;
+    margin:10px;
+}
+.right_area {
+    width: 100%;
+    display: flex;
+    background-color: #c1c1c1;
+    border-radius: 7px;
+    padding: 10px;
+    margin:10px;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-aroud;
+}
+label {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.social img {
+    width: 20px;
+    height: 20px;
+}/*https://dribbble.com/shots/14126196-Contact-Form-01*/
